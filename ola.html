@@ -13,6 +13,14 @@
             function clickNoBotao() {
                 alert("olá, mundo!");
             }
+
+            function atualizacaoTexto() {
+
+                let input = document.getElementById("meuinput");
+                let p = document.getElementById("paragrafo");
+
+                p.textContent = input.value;
+            }
         </script>
     </head>
 
@@ -20,19 +28,21 @@
         <div>
             <h1>Título</h1>
             <h2>Título 2</h2>
-            <p>Qualquer texto</p>
+            <p id="paragrafo">Qualquer texto</p>
             <span>Informação</span>
         </div>
         <img src="001.png" />
-        <a href="https://google.com.br">Link para o Google </a>"
+        <a href="https://google.com.br">Link para o Google</a>
 
-        <input type="date" />
-        <select>
-            <option> Opção 1</option>
-            <option> Opção 2</option>
-            <option> Opção 3</option>
-        </select>
-        <button onclick ="clickNoBotao()">Texto do botão</button>
+       <div>
+            <input id="meuinput" type="text" oninput="atualizacaoTexto()" />
+            <select>
+                <option> Opção 1</option>
+                <option> Opção 2</option>
+                <option> Opção 3</option>
+            </select>
+            <button onclick ="clickNoBotao()">Texto do botão</button>
+        </div>
             
     </body>
 
