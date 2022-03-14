@@ -14,8 +14,82 @@ body{
     background-color: yellow;
 }
 
-.container {
+#verde {
+    background-color: green;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#roxo {
+    background-color: purple;
+}
+
+.container-vermelho {
+    display: flex;
     height: 25vh;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-laranja {
+    display: flex;
+    height: 25vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.info-amarela {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 10%;
+    height: 12.5vh;
+
+}
+
+.info-verde {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    height: 12.5vh;
+
+}
+
+.info-azul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: 12.5vh;
+
+}
+
+.info-roxo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: 12.5vh;
+
+}
+
+.infos-primeira {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infos-segunda {
+    display: flex;
+    justify-content: space-between;
 }
 
