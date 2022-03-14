@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+
+#vermelha {
+    background-color: red;  
+}
+
+#laranja {
+    background-color: orange;
+}
+
+#amarela {
+    background-color: yellow;
+}
+
+.container {
+    height: 25vh;
+    text-align: center;
+}
