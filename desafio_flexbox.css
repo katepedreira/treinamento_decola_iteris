@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.menu {
+    background-color: purple;
+    display: flex;
+    margin: 0;
+    height: 13vh;  
+    display: flex;
+    color: white;
+    font-family: tahoma;
+    font-size: 20px;
+   
+}
+
+.icones {
+    display: flex;
+    margin-left: 4vh;
+    width: 16vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.imagem img { 
+    max-width: 100%;
+}
+
+.imagem {
+    margin: 15px;
+}
+
+.cidade-preco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.nome-tipo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
